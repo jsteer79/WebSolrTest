@@ -2,6 +2,7 @@ WebSolr Test
 ===================
 
 Used to test deleting in node on websolr
+
 All requests to websolr are output to the console
 
 Routes
