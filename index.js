@@ -8,8 +8,9 @@ var app = express();
 app.use( express.json() )
    .use( express.urlencoded() );
 
-app.get( '/'     , routes.count );
-app.get( '/add'  , routes.add );
-app.get( '/clear', routes.clear );
+app.get( '/'       , routes.count );
+app.get( '/add'    , routes.add );
+app.get( '/clear'  , routes.clear );
+app.get('/del/:key', routes.del );
 
 app.listen( nconf.get('PORT') );
