@@ -10,7 +10,7 @@ Routes
 
 * / - shows the first 10 records in the core
 * /add - adds a record into the core
-* /clear - deletes by query all the data from the solr code
+* /clear - deletes by query all the data from the solr core
 * /del/:key - deletes by id the document with that key
 
 Config Environment Variables/Heroku Keys
